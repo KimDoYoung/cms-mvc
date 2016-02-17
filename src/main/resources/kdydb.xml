@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SqlPicker>
+	<sql id="p1">
+		select top 5 id,isbn,title1 as 제목,category,author from book order by id desc
+	</sql>		
+	<sql id="insert1">
+		insert into book(isbn,title1) values (#isbn#,#title#);
+	</sql>
+	<sql id="delete1">
+		delete from book where isbn = #isbn#
+	</sql>		
+
+</SqlPicker>

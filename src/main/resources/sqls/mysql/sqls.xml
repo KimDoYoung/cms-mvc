@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SqlPicker>
+
+	<sql id="test" >
+		select * from wcm_code
+	</sql>	
+	<sql id="count_of_wcm_code" >
+		select count(*) from wcm_code
+	</sql>	
+	<sql id="insert_wcm_code" >
+		insert into wcm_code values (#locale#,#grp#,#code#,#title#,1)
+	</sql>	
+	<sql id="delete_wcm_code" >
+		delete from  wcm_code where locale = #locale# and grp = #grp# and code = #code#
+	</sql>		
+</SqlPicker>

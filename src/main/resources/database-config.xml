@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databases>
+	<!-- 	MS Sql Server -->
+	<database id="dvddb">
+		<basic-info>
+			<url>jdbc:sqlserver://220.76.203.236:1433;DatabaseName=DVD_DB</url>
+			<userId>kalpadb</userId>
+			<password>kalpadb987</password>
+		</basic-info>
+		<connection-pool-info>
+			<driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver>
+			<minConnection>10</minConnection>
+			<maxConnectionSize>100</maxConnectionSize>
+			<loginTimeout>10</loginTimeout>
+			<maxWait>5000</maxWait>
+		</connection-pool-info>
+		<sql-files>
+			<file>/sqls/mssql/sqls.xml</file>
+			<folder>/sqls/mssql/biz</folder>
+		</sql-files>
+	</database>
+	<database id="kdydb">
+		<basic-info>
+			<url>jdbc:sqlserver://220.76.203.236:1433;DatabaseName=KDYDB</url>
+			<userId>kalpadb</userId>
+			<password>kalpadb987</password>
+		</basic-info>
+		<connection-pool-info>
+			<driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver>
+			<minConnection>10</minConnection>
+			<maxConnectionSize>100</maxConnectionSize>
+			<loginTimeout>10</loginTimeout>
+			<maxWait>5000</maxWait>
+		</connection-pool-info>
+		<sql-files>
+			<file>/kdydb.xml</file>
+		</sql-files>
+	</database>	
+	<!-- 	오라클 Oracle -->
+	<database id="airmap">
+		<basic-info>
+			<url>jdbc:oracle:thin:@220.76.203.237:1521:smsd</url>
+			<userId>adapt</userId>
+			<password>adapt123</password>
+		</basic-info>
+		<connection-pool-info>
+			<driver>oracle.jdbc.driver.OracleDriver</driver>
+			<minConnection>10</minConnection>
+			<maxConnectionSize>100</maxConnectionSize>
+			<loginTimeout>10</loginTimeout>
+			<maxWait>5000</maxWait>
+		</connection-pool-info>
+		<sql-files>
+			<file>/sqls/oracle/sqls.xml</file>
+		</sql-files>
+	</database>	
+	<!-- 	MySql CMS -->
+	<database id="cms">
+		<basic-info>
+			<url>jdbc:mysql://220.76.203.236:3306/cmsnew</url>
+			<userId>cms</userId>
+			<password>cms987</password>
+		</basic-info>
+		<connection-pool-info>
+			<driver>com.mysql.jdbc.Driver</driver>
+			<minConnection>10</minConnection>
+			<maxConnectionSize>100</maxConnectionSize>
+			<loginTimeout>10</loginTimeout>
+			<maxWait>5000</maxWait>
+		</connection-pool-info>
+		<sql-files>
+			<file>/sqls/mysql/sqls.xml</file>
+		</sql-files>
+	</database>		
+</databases>

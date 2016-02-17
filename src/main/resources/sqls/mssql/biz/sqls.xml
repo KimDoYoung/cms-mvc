@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SqlPicker>
+
+	<sql id="zzz">
+		select * from table1  
+	</sql>	
+
+</SqlPicker>
