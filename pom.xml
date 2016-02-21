@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>kr.co.kalpa.cms</groupId>
   <artifactId>cms-mvc-lib</artifactId>
-  <version>0.0.1</version>
+  <version>1.0.0</version>
   <name>CmsMvcLib</name>
   <packaging>jar</packaging>
 
@@ -22,7 +22,7 @@
 	<dependency>
 	  <groupId>kr.co.kalpa.cms</groupId>
 	  <artifactId>cms-latte</artifactId>
-	  <version>0.0.1</version>
+	  <version>1.0.0</version>
 	</dependency>
 			
 	<dependency>
