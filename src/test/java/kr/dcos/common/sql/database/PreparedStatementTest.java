@@ -10,6 +10,7 @@ import kr.dcos.common.sql.exception.SqlExecutorException;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class PreparedStatementTest {
@@ -23,7 +24,7 @@ public class PreparedStatementTest {
 	public void tearDown() throws Exception {
 	}
 
-	@Test
+	@Test @Ignore
 	public void test() throws SqlExecutorException {
 		
 		PreparedStatement pstmt=null;
@@ -50,7 +51,7 @@ public class PreparedStatementTest {
 	    java.util.Date today = new java.util.Date();
 	    return new java.sql.Timestamp(today.getTime());
 	}
-	@Test
+	@Test @Ignore
 	public void test1() throws SqlExecutorException {
 		
 		PreparedStatement pstmt=null;

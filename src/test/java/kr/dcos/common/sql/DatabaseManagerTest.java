@@ -15,6 +15,7 @@ import kr.dcos.common.utils.StrUtils;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -39,7 +40,7 @@ private static Logger logger = LoggerFactory
 	 * @throws SqlExecutorException
 	 * @throws SqlPickerException
 	 */
-	@Test
+	@Test  @Ignore
 	public void testBasic1() throws  SqlExecutorException, SqlPickerException {
 		
 		SqlExecuter se = DatabaseManager.getInstance().getSqlExecutor("dvddb");
@@ -52,7 +53,7 @@ private static Logger logger = LoggerFactory
 		assertTrue(table.getRowSize() > 0);
 	}
 
-	@Test
+	@Test  @Ignore
 	public void testBasic2() throws  SqlExecutorException, SqlPickerException {
 		
 		SqlExecuter se = DatabaseManager.getInstance().getSqlExecutor("airmap");
@@ -62,7 +63,7 @@ private static Logger logger = LoggerFactory
 		assertNotNull(table);
 		assertTrue(table.getRowSize() > 0);
 	}
-	@Test
+	@Test  @Ignore
 	public void testBasic3() throws  SqlExecutorException, SqlPickerException {
 		
 		SqlExecuter se = DatabaseManager.getInstance().getSqlExecutor("cms");
@@ -72,7 +73,7 @@ private static Logger logger = LoggerFactory
 		assertNotNull(table);
 		assertTrue(table.getRowSize() > 0);
 	}
-	@Test
+	@Test  @Ignore
 	public void testCount1() throws SqlExecutorException {
 		
 		SqlExecuter se = DatabaseManager.getInstance().getSqlExecutor("cms");
@@ -104,7 +105,7 @@ private static Logger logger = LoggerFactory
 	 * 직접 sql을  수행한다.
 	 * @throws SqlExecutorException
 	 */
-	@Test
+	@Test @Ignore
 	public void testCountDirect() throws SqlExecutorException {
 		SqlExecuter se = DatabaseManager.getInstance().getSqlExecutor("cms");
 		String sql = "select * from WCM_CODE";
@@ -118,7 +119,7 @@ private static Logger logger = LoggerFactory
 		int effectedRowCount = se.executeDirect("insert into hanjulinfo(line) values('testing cms mvc')");
 		assertEquals(effectedRowCount,1);
 	}
-	@Test
+	@Test  @Ignore
 	public void testKdyDb(){
 		SqlExecuter se;
 		

@@ -26,7 +26,10 @@ public class ConfigManagerTest {
 
 	@Test
 	public void test() {
-		File file = new File("c:/application.properties");
+		//File file = new File("c:/application.properties");
+		File file = new File("./src/test/resources/application.properties");
+		System.out.println(file.getAbsolutePath());
+		
 		ConfigManager.getInstance().load(file);
 		logger.debug(ConfigManager.getInstance().toString());
 		String s = ConfigManager.getInstance().get("ApplicationName");

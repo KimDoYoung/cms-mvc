@@ -31,6 +31,12 @@ public class StrUtils {
 		String[] array = list.toArray(new String[list.size()]);
 		return arrayToString(array,delimitor);
 	}
+	/**
+	 * 문자열배열을 한개의 문자열로 결합한다. 결합시 delimitor를 붙여서 결합한다
+	 * @param strArray
+	 * @param delimitor
+	 * @return
+	 */
 	public static String arrayToString(String[] strArray,char delimitor){
 		StringBuilder sb = new StringBuilder();
 		for(String s : strArray){
@@ -99,7 +105,8 @@ public class StrUtils {
 		}
 		return true;
 	}
-	public static String toCharset(String s, String fromCharset,String toCharset) {
+
+	public static String toCharset(String s, String fromCharset, String toCharset) {
 		if(isNullOrEmpty(s))return s;
 		try {
 			return new String(s.getBytes(fromCharset), toCharset);

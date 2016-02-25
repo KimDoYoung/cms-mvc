@@ -15,6 +15,7 @@ import kr.dcos.common.sql.utils.ValueConverterFactory;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -52,7 +53,7 @@ public class JdbcTableTest {
 		return connection;
 	}
 	
-	@Test
+	@Test @Ignore
 	public void test() throws SQLException, JdbcTableException {
 		Statement stmt = null;
 		ResultSet rs = null;
@@ -115,7 +116,7 @@ public class JdbcTableTest {
 				
 	}
 	
-	@Test
+	@Test @Ignore
 	public void testJdbc() throws SQLException, JdbcTableException {
 		Statement stmt = null;
 		ResultSet rs = null;

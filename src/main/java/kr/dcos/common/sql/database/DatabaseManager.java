@@ -158,9 +158,9 @@ public class DatabaseManager {
 		return sqlExec;
 	}
 	public Connection getConnection(String dbName) throws SqlExecutorException {
-		if(dbMap.containsKey(dbName)){
+		if (dbMap.containsKey(dbName)) {
 			Database db = dbMap.get(dbName);
-			if(db != null){
+			if (db != null) {
 				return db.getConnManager().getConnection();
 			}
 		}

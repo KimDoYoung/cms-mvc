@@ -18,6 +18,7 @@ import kr.dcos.common.utils.StrUtils;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -105,7 +106,7 @@ public class SqlExecuterTest {
 //		assertEquals(table.rowSize(),(int)cnt);
 //	}
 
-	@Test
+	@Test @Ignore
 	public void testSelectTitle() throws SqlExecutorException {
 		Table table =  se.select("p1", null);
 		assertNotNull(table);

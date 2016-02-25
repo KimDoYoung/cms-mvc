@@ -39,7 +39,7 @@ public class IndexedMapTest {
 		Column c = indexedMap.getByIndex(1);
 		logger.debug(c.toString());
 		assertNotNull(c);
-		assertEquals(c.getName(), "name2".toUpperCase());
+		assertEquals(c.getName().toUpperCase(), "name2".toUpperCase());
 		
 	}
 
