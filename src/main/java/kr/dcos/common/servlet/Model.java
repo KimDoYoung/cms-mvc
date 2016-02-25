@@ -4,6 +4,12 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
+/**
+ * 모델 클래스
+ * 
+ * @author Kim Do Young
+ *
+ */
 public class Model {
 	Map<String, Object> map;
     
@@ -11,11 +17,6 @@ public class Model {
             map = new HashMap<String,Object>();
     }
     
-//    public void addAttribute(Object value){
-//    	Class<?> type = value.getClass();
-//    	String name = propertyName(type.getName());
-//    	addAttribute(name,value);
-//    }
     public Object getAttribute(String name){
     	return map.get(propertyName(name));
     }

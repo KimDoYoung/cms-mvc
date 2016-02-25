@@ -3,6 +3,12 @@ package kr.dcos.common.sql.database;
 import kr.dcos.common.sql.SqlExecuter;
 import kr.dcos.common.sql.exception.SqlExecutorException;
 
+/**
+ * 데이터베이스 클래스
+ * 
+ * @author Kim Do Young
+ *
+ */
 public class Database {
 	private BasicInfo basicInfo;
 	private SqlExecuter sqlExecuter= null;

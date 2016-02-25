@@ -28,7 +28,12 @@ import org.slf4j.LoggerFactory;
 import com.sun.mail.smtp.SMTPTransport;
 
 
-
+/**
+ * 구글계정을 이용하여 메일을 보낸다
+ * 
+ * @author Administrator
+ *
+ */
 public class GoogleMailSender {
 	
 	private static Logger logger = LoggerFactory

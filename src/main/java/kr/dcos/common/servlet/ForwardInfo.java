@@ -14,13 +14,14 @@ import kr.dcos.common.utils.ValueText;
 
 
 /**
- * Command 실행후에 보여줘야할 jsp의 내용에 대한 정보
- * if Each handler meet exception or error , can carry them use errorMessage class
- * 모델과 resovler를 가지고 있다. resolver는 Dispatcher에서 기본으로 JspResolver를 사용한다
- * 그러므로 LayoutResolver 를 사용하기 위해서는 각각의 Method에서 LayoutResovler를 생성해야한다
- * default는 jspResovler로 한다
- * @author Administrator
- *
+ * Command 실행후에 보여줘야할 jsp의 내용에 대한 정보 <br>
+ * if Each handler meet exception or error , can carry them use errorMessage class <br>
+ * 모델과 resovler를 가지고 있다. resolver는 Dispatcher에서 기본으로 JspResolver를 사용한다<br>
+ * 그러므로 LayoutResolver 를 사용하기 위해서는 각각의 Method에서 LayoutResovler를 생성해야한다<br>
+ * default는 jspResovler로 한다<br>
+ * 
+ * @author Kim Do Young
+ * 
  */
 public class ForwardInfo {
 	//private final static String ErrorPage = "/common/cms_error.jsp";

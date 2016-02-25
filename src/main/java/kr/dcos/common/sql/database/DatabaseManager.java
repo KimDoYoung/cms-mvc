@@ -24,9 +24,10 @@ import org.slf4j.LoggerFactory;
 
 
 /**
- * 데이터베이스관련 정보를 가지고 있는 클래스
- * Singleton으로 작성됨 
- * @author Administrator
+ * 데이터베이스관련 정보를 가지고 있는 클래스<br>
+ * Singleton으로 작성됨 <br>
+ * 
+ * @author Kim Do Young
  *
  */
 public class DatabaseManager {

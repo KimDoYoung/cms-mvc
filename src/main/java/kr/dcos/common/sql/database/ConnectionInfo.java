@@ -2,7 +2,8 @@ package kr.dcos.common.sql.database;
 
 /**
  * DB연결에 필요한 정보들을 가지고 있는 클래스
- * @author Administrator
+ * 
+ * @author Kim Do Young
  *
  */
 public class ConnectionInfo {

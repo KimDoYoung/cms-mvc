@@ -1,5 +1,11 @@
 package kr.dcos.common.sql.exception;
 
+/**
+ * SQL 수행시 발생하는  Exception 
+ * 
+ * @author Kim Do Young
+ *
+ */
 public class SqlExecutorException extends Exception  {
 
 	/**

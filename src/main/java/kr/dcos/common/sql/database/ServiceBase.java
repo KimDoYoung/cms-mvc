@@ -10,6 +10,12 @@ import kr.dcos.common.sql.SqlParam;
 import kr.dcos.common.sql.Table;
 import kr.dcos.common.sql.exception.SqlExecutorException;
 
+/**
+ * 데이터베이스관련 서비스 클래스
+ * 
+ * @author Kim Do Young
+ *
+ */
 public class ServiceBase implements ServiceInterface {
 	
 	private static Logger logger = LoggerFactory.getLogger(ServiceBase.class);

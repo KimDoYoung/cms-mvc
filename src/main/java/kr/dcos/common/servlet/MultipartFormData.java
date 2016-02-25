@@ -10,10 +10,11 @@ import java.util.Map;
 
 
 /**
- * jsp form action Multipart form-data로 보낼때
- * Map에 일반 데이터를 넣고.
- * List<FileJeongBo> list에 저장한 파일정보를 넣는다
- * @author Administrator
+ * jsp form action Multipart form-data로 보낼때 <br>
+ * Map에 일반 데이터를 넣고.<br>
+ * List<FileJeongBo> list에 저장한 파일정보를 넣는다<br>
+ * 
+ * @author Kim Do Young
  *
  */
 public class MultipartFormData {

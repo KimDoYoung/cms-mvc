@@ -1,6 +1,11 @@
 package kr.dcos.common.servlet;
 
-
+/**
+ * upload한 파일에 대한 정보를 담고 있는 클래스 
+ * 
+ * @author Kim Do Young
+ *
+ */
 public class FileJeongBo {
 	//private SuccessFail successFail;
 	private String htmlTagName;

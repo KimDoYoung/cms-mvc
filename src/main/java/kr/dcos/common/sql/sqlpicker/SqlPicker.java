@@ -32,11 +32,12 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 /**
- * Sql을 가지고 있는 xml파일을 읽어서 id로 찾아온다.
- * 찾아온 sql 속의 변수(#variablenaem#)에
- * parameter객체의 값으로 치환하여 sql을 만들어서 사용할 수 있게 한다
- * SQL저장소에서 parameterType으로 넘겨받은 parameter를 넣어서 완성된 sql을 사용할 수 있게한다
- * @author Administrator
+ * Sql을 가지고 있는 xml파일을 읽어서 id로 찾아온다. <br>
+ * 찾아온 sql 속의 변수(#variablenaem#)에<br>
+ * parameter객체의 값으로 치환하여 sql을 만들어서 사용할 수 있게 한다<br>
+ * SQL저장소에서 parameterType으로 넘겨받은 parameter를 넣어서 완성된 sql을 사용할 수 있게한다<br>
+ * 
+ * @author Kim Do Young
  *
  */
 public class SqlPicker {

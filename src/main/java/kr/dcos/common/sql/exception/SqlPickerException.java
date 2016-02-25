@@ -1,5 +1,10 @@
 package kr.dcos.common.sql.exception;
 
+/**
+ * SqlPicker Exception
+ * @author Kim Do Young
+ *
+ */
 public class SqlPickerException extends Exception {
 	/**
 	 * 

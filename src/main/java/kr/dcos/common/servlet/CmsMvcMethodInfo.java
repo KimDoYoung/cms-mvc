@@ -2,7 +2,8 @@ package kr.dcos.common.servlet;
 
 /**
  * CmsMvcDispatcher가 가지고 있는 테이블의 Item
- * @author Administrator
+ * 
+ * @author Kim Do Young
  *
  */
 public class CmsMvcMethodInfo {

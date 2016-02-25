@@ -4,12 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Jsp(View)에 넘겨줄 에러메세지를 가지고 있는 클래스
- * Key와 index두가지로 접근가능하다
- * 예) boardManager.error.get("name");
- *    for(int i=0;i<boardManager.error.size();i++){
- *    	display(boardManager.error.get(i));
- *    }
+ * Jsp(View)에 넘겨줄 에러메세지를 가지고 있는 클래스 <br>
+ * Key와 index두가지로 접근가능하다<br>
+ * <pre>
+ * 예) boardManager.error.get("name"); <br>
+ *    for(int i=0;i<boardManager.error.size();i++){ <br>
+ *    	display(boardManager.error.get(i)); <br>
+ *    } <br>
+ * </pre>
+ *    
  * @author Administrator
  *
  */

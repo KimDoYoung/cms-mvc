@@ -3,6 +3,12 @@ package kr.dcos.common.servlet;
 import kr.dcos.common.servlet.view.JspView;
 import kr.dcos.common.servlet.view.View;
 
+/**
+ * ModelAndView 클래스
+ * 
+ * @author Kim Do Young
+ *
+ */
 public class ModelAndView {
 
 	private Object model;

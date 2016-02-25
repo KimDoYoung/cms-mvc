@@ -29,7 +29,12 @@ import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-
+/**
+ * 사용자측으로부터 받은 Request정보를 담고 있는 클래스
+ *  
+ * @author Kim Do Young
+ *
+ */
 public class RequestInfo {
 	
 	private static Logger logger = LoggerFactory.getLogger(RequestInfo.class);

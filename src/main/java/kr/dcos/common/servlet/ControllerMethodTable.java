@@ -24,11 +24,12 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 /**
- * 클래스.메소드 형태(Nogada.go)의 형태로 key값을, Value는 ISuhaengMethod이다.
- * 키값은 모두 lowercase로 만들어서 넣는다.(위험하지만 jsp에서의 편의를 위해서)
- * load메소드에서 web.xml에 기술되어 있는 config파일을 넘겨받아서서 class를 로딩한 후에
- * 그 클래스 안에서  ControllerMethod annotation이 붙은 것을 골라서 테이블에 넣는다.
- * @author Administrator
+ * 클래스.메소드 형태(Nogada.go)의 형태로 key값을, Value는 ISuhaengMethod이다. <br>
+ * 키값은 모두 lowercase로 만들어서 넣는다.(위험하지만 jsp에서의 편의를 위해서)<br>
+ * load메소드에서 web.xml에 기술되어 있는 config파일을 넘겨받아서서 class를 로딩한 후에<br>
+ * 그 클래스 안에서  ControllerMethod annotation이 붙은 것을 골라서 테이블에 넣는다.<br>
+ * 
+ * @author Kim Do Young
  *
  */
 public class ControllerMethodTable {

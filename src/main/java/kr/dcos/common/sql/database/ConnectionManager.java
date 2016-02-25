@@ -7,7 +7,12 @@ import kr.dcos.common.sql.exception.SqlExecutorException;
 
 import org.apache.commons.dbcp.BasicDataSource;
 
-
+/**
+ * 데이터 베이스 연결 정보를 가지고 있는 클래스
+ * 
+ * @author Kim Do Young
+ *
+ */
 public class ConnectionManager {
 
 	private BasicInfo basicInfo;

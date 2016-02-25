@@ -23,7 +23,15 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
-
+/**
+ * CmsMvc의 핵심 모듈 <br>
+ * 1. 받은 url에서 class.method명을 해석하여 <br> 
+ * 2. 인증과 권한을 체크한 후 <br>
+ * 3. 해당 class의 method를 호출한다.<br>
+ *  * 
+ * @author Kim Do Young
+ *
+ */
 public class CmsDispatcherAd extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private static Logger logger = LoggerFactory

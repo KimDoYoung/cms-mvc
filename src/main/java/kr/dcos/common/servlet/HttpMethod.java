@@ -1,6 +1,11 @@
 package kr.dcos.common.servlet;
 
-
+/**
+ * HTTP method를 정의한 enum 
+ * 
+ * @author Kim Do Young
+ *
+ */
 public enum HttpMethod {
 	GET,
 	POST,

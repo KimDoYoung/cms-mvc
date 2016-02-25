@@ -1,5 +1,11 @@
 package kr.dcos.common.sql.database;
 
+/**
+ * 데이터베이스 접속에 대한 기본정보 클래스
+ * 
+ * @author Kim Do Young
+ *
+ */
 public class BasicInfo {
 	private String url;
 	private String userId;
