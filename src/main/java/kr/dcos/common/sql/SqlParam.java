@@ -7,9 +7,10 @@ import java.util.Map.Entry;
 import kr.dcos.common.utils.PrintMap;
 
 /**
- * SqlExecutor에서 수행 인자로 넘길때의 Parameter Class
- * SqlPicker가 #para# 를 해석할 때사용한다
- * @author Administrator
+ * SqlExecutor에서 수행 인자로 넘길때의 Parameter Class <br>
+ * SqlPicker가 #para# 를 해석할 때사용한다<br>
+ * 
+ * @author Kim Do Young
  *
  */
 public class SqlParam  {

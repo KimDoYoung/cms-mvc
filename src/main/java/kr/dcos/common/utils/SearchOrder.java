@@ -1,10 +1,11 @@
 package kr.dcos.common.utils;
 
 /**
- * Cms의 list.jsp에 사용하는 검색조건과 order by,direction을 위해서
- * 필요한 정보를 가지고 있는다.
- * EL로 jsp에 표현하기 위해서 SelectCondition에서 사용한다
- * @author Administrator
+ * Cms의 list.jsp에 사용하는 검색조건과 order by,direction을 위해서 <br>
+ * 필요한 정보를 가지고 있는다. <br>
+ * EL로 jsp에 표현하기 위해서 SelectCondition에서 사용한다 <br>
+ * 
+ * @author Kim Do Young
  *
  */
 public class SearchOrder {

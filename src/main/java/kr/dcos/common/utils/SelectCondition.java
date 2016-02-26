@@ -4,9 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * sql where condition 
- * this is similar SelectCondition of board module
- * @author Administrator
+ * sql where condition <br>
+ * this is similar SelectCondition of board module  <br>
+ * 
+ * @author Kim Do Young
  *
  */
 public class SelectCondition extends PagedBase {
@@ -16,12 +17,15 @@ public class SelectCondition extends PagedBase {
 	//tableName for board , SelectCondion말고 다른 class를 만드느니 그냥...
 	//tableName은 boardService에서만 사용한다.
 	private String tableName; 
-	//rmwlrkxek 
+
 	private SearchOrder searchOrder ;
+	
 	//where Clause
 	private List<WhereClause> whereClauseList;
+	
 	//추가필드에 대한 where Clause 리스트
 	private List<WhereClause> chugaSearchList;
+	
 	//orderByClause list
 	protected List<OrderByClause> orderByList;
 	//
@@ -137,9 +141,4 @@ public class SelectCondition extends PagedBase {
 			}
 		}
 	}
-
-
-
-
-
 }

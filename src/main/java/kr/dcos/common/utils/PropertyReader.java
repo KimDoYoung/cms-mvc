@@ -17,10 +17,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Key=Value 값으로 된 파일을 읽어서 List 또는 Map으로 리턴한다.
- * List는 ValueText를 
- * Map 은 <String,String>으로 리턴한다
- * @author Administrator
+ * Key=Value 값으로 된 파일을 읽어서 List 또는 Map으로 리턴한다. <br>
+ * List는 ValueText를  <br>
+ * Map 은 <String,String>으로 리턴한다  <br>
+ * 
+ * @author Kim Do Young
  *
  */
 public class PropertyReader {

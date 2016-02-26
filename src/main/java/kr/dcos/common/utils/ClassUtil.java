@@ -4,14 +4,14 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.math.BigDecimal;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
+/**
+ * 클래스 관련 유틸리티
+ * 
+ * @author Kim Do Young
+ *
+ */
 public class ClassUtil {
 	
-	private static Logger logger = LoggerFactory.getLogger(ClassUtil.class);
-	
-
 	/**
 	 * 자바가 지원하는 원초적인 클래스타입인지 체크한다
 	 * @param object

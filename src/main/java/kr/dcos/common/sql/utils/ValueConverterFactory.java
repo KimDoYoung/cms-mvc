@@ -7,6 +7,13 @@ import java.sql.Types;
 
 import kr.dcos.common.sql.Column.DataType;
 
+/**
+ * 
+ * JDBC로 가져온 데이터의 값을 변경시키는 클래스
+ *  
+ * @author Kim Do Young
+ *
+ */
 public class ValueConverterFactory {
 	public static final ValueConverter DOUBLE_MAPPER = new DoubleConverter();
 	public static final ValueConverter INTEGER_MAPPER = new IntegerConverter();

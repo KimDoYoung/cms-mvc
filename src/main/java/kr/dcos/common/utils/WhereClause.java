@@ -1,9 +1,10 @@
 package kr.dcos.common.utils;
 
 /**
- * SQL문장의 Where절
- * SelectCondition에서 사용한다
- * @author Administrator
+ * SQL문장의 Where절 <br>
+ * SelectCondition에서 사용한다  <br>
+ * 
+ * @author Kim Do Young
  *
  */
 public class WhereClause {

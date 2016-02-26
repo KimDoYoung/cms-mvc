@@ -9,6 +9,9 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Map;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import kr.dcos.common.sql.Column.DataType;
 import kr.dcos.common.sql.DbTransactionItem.SqlType;
 import kr.dcos.common.sql.database.ConnectionManager;
@@ -21,23 +24,18 @@ import kr.dcos.common.sql.utils.StopWatch;
 import kr.dcos.common.sql.utils.ValueConverter;
 import kr.dcos.common.sql.utils.ValueConverterFactory;
 import kr.dcos.common.utils.ClassUtil;
-import kr.dcos.common.utils.CmsUtils;
 import kr.dcos.common.utils.ConvertUtil;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-
-
 /**
- * sql을 수행한다.
- * sqlPicker에서 sql을 가져온다.
- * 수행함수는 3종류가 있다. 
- * 1. select : Table을 리턴한다
- * 2. execute  : insert,update,delete : 반영된 레코드 갯수를 리턴한다. 
- * 3. queryInteger : count(*)와 같이 수행된 함수에 대해서 integer숫자를 리턴한다.
- * 4. queryDouble  : query후 double형으로 숫자를 리턴한다.
- * @author Administrator
+ * sql을 수행한다. <br>
+ * sqlPicker에서 sql을 가져온다. <br>
+ * 수행함수는 3종류가 있다. <br>
+ * 1. select : Table을 리턴한다<br>
+ * 2. execute  : insert,update,delete : 반영된 레코드 갯수를 리턴한다.<br> 
+ * 3. queryInteger : count(*)와 같이 수행된 함수에 대해서 integer숫자를 리턴한다.<br>
+ * 4. queryDouble  : query후 double형으로 숫자를 리턴한다.<br>
+ * 
+ * @author Kim Do Young
  *
  */
 public class SqlExecuter {

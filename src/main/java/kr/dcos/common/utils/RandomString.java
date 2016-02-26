@@ -2,6 +2,11 @@ package kr.dcos.common.utils;
 
 import java.util.Random;
 
+/**
+ * 랜덤 문자열을 만들어준다. 사이즈를 인자로 받아서 인자 길이만큼의 문자열을  리턴해준다.
+ * @author Kim Do Young
+ *
+ */
 public class RandomString
 {
 

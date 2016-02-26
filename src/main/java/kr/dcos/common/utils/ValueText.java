@@ -2,7 +2,8 @@ package kr.dcos.common.utils;
 
 /**
  * html tag select의 option 값과 text부분을 위한 클래스
- * @author Administrator
+ * 
+ * @author Kim Do Young
  *
  */
 public class ValueText {

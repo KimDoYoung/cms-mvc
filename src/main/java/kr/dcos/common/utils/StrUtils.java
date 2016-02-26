@@ -14,7 +14,11 @@ import java.util.Map;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
-
+/**
+ * 문자열관련 유틸리티성 함수 모음
+ * @author Kim Do Young
+ *
+ */
 public class StrUtils {
 	public static final String EMPTY_STRING = "";
 	public static enum TIMEPOINT { START_TIME, END_TIME };

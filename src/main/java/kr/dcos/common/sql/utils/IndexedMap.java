@@ -3,11 +3,10 @@ package kr.dcos.common.sql.utils;
 import java.util.HashMap;
 import java.util.Map;
 
-import kr.dcos.common.sql.JdbcTableException;
-
 /**
- * HashMap에서 index로 찾기도 지원하기 위한 Map 
- * @author Administrator
+ * HashMap에서 index로 찾기도 지원하기 위한 Map
+ *  
+ * @author Kim Do Young
  *
  * @param <K>
  * @param <V>

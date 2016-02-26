@@ -4,8 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * 
  * 동일한 단어의 갯수를 세기 위해서 작성
- * @author Administrator
+ * @author Kim Do Young
  *
  */
 public class CountMap {

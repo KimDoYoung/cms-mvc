@@ -2,7 +2,7 @@ package kr.dcos.common.utils;
 
 /**
  * select condition과 같은 데 
- * @author Administrator
+ * @author Kim Do Young
  *
  */
 public class MemoSelectCondition extends  SelectCondition{

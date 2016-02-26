@@ -8,6 +8,12 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ * 쿠키관련 유틸리티
+ * 
+ * @author Kim Do Young
+ *
+ */
 public class CookieUtil {
 	private HttpServletResponse response;
 	private HttpServletRequest request;

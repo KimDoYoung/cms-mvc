@@ -2,7 +2,7 @@ package kr.dcos.common.utils;
 
 /**
  * ValueText 클래스를 그냥 이용하면서 이름만 key value로 하다
- * @author Administrator
+ * @author Kim Do Young
  *
  */
 public class KeyValue extends ValueText {

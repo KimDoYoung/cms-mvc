@@ -4,9 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * keyValue
+ * keyValue HTTP param으로 넘어오는 인자를 해석하여 key value Map으로 만들어 준다
  * 
- * @author Administrator
+ * @author Kim Do Young
  * 
  */
 public class KeyValueMap {

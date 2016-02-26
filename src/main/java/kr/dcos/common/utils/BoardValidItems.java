@@ -1,11 +1,12 @@
 package kr.dcos.common.utils;
 
 /**
- * Board용 Validate할 항목들을 가지고 있다.
- * Json을 받아들여서 값을 채울 수 있어야한다.
- * 이 클래스의 프로퍼티들이 json문자열로 변경될 수 있어야한다.
- * Board생성에서 각 etc필드의 validate문자열을 json으로 사용하기로 한다.
- * @author Administrator
+ * Board용 Validate할 항목들을 가지고 있다. <br>
+ * Json을 받아들여서 값을 채울 수 있어야한다.<br>
+ * 이 클래스의 프로퍼티들이 json문자열로 변경될 수 있어야한다.<br>
+ * Board생성에서 각 etc필드의 validate문자열을 json으로 사용하기로 한다.<br>
+ * 
+ * @author Kim Do Young
  *
  */
 public class BoardValidItems {

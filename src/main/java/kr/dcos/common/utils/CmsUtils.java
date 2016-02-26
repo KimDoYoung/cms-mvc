@@ -43,10 +43,10 @@ public class CmsUtils {
 		Pattern p = Pattern.compile("(.*?)(\\d+)?(\\..*)?");
 		do{
 		    Matcher m = p.matcher(fname);
-		    if(m.matches()){//group 1 is the prefix, group 2 is the number, group 3 is the suffix
+		    if(m.matches()){  //group 1 is the prefix, group 2 is the number, group 3 is the suffix
 		    	fname = m.group(1) + (m.group(2)==null?1:(Integer.parseInt(m.group(2)) + 1)) + (m.group(3)==null?"":m.group(3));
 		    }
-		}while(new File(fname).exists());//repeat until a new filename is generated
+		}while(new File(fname).exists()); //repeat until a new filename is generated
 		return fname;
 	}
 	/**
@@ -76,8 +76,7 @@ public class CmsUtils {
 	 * @param validPropertyName
 	 * @return
 	 */
-	public static <T> Object getValueOfClassWithPropertyName(
-			T t, String propertyName) {
+	public static <T> Object getValueOfClassWithPropertyName(T t, String propertyName) {
 		Object value = null;
 		try {
 			java.lang.reflect.Field afield;

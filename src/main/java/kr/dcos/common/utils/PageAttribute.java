@@ -2,7 +2,7 @@ package kr.dcos.common.utils;
 
 
 /**
- * 
+ * 페이지 Attribute 클래스
  * 
  * @author KDY
  * 

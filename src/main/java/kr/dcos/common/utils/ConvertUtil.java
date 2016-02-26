@@ -1,6 +1,12 @@
 package kr.dcos.common.utils;
 
+/**
+ * 데이터형을 변환하는 유틸리티
+ * @author Kim Do Young
+ *
+ */
 public class ConvertUtil {
+	
 	public static Integer toInteger(Object o){
 		if(o == null) {
 			return null;
@@ -11,6 +17,7 @@ public class ConvertUtil {
 			return Integer.parseInt(o.toString());
 		}
 	}
+	
 	public static Integer toInteger(Object o,Integer defaultValue){
 		if(o == null) {
 			return defaultValue;
@@ -21,6 +28,7 @@ public class ConvertUtil {
 			return Integer.parseInt(o.toString());
 		}
 	}
+	
 	public static Boolean toBoolean(String boolString, boolean b) {
 		if(boolString == null) { return b;}
 		Boolean bool = Boolean.parseBoolean(boolString);

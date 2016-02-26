@@ -4,13 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * insert,update,delete등이 성공했을 경우 화면에 메세지를 보여준다
- * 보여주는 jsp는 /common/success.jsp이다. 
- * success.jsp가 필요로 하는 멤버데이터를 가지고 있다.
- * success.jsp를 보여주기 위해서는
- * 각 controller에서 이 클래스를 생성해서 forwardInfo에 셋팅해야한다
- * forwardInfo.setAttribute("successInfo",successInfo);
- * @author Administrator
+ * insert,update,delete등이 성공했을 경우 화면에 메세지를 보여준다 <br>
+ * 보여주는 jsp는 /common/success.jsp이다.  <br>
+ * success.jsp가 필요로 하는 멤버데이터를 가지고 있다. <br>
+ * success.jsp를 보여주기 위해서는 <br>
+ * 각 controller에서 이 클래스를 생성해서 forwardInfo에 셋팅해야한다 <br>
+ * forwardInfo.setAttribute("successInfo",successInfo); <br>
+ * 
+ * @author Kim Do Young
  *
  */
 public class SuccessInfo {

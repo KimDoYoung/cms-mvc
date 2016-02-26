@@ -6,13 +6,14 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 문자열로 분류해서 리스트를 가지고 있게 한다.
- * A-1        A- 1,2
- * A-2        B- 1,2,3  
- * B-1  --> 
- * B-2
- * B-3 
- * @author Administrator
+ * 문자열로 분류해서 리스트를 가지고 있게 한다. <br>
+ * A-1        A- 1,2 <br>
+ * A-2        B- 1,2,3   <br>
+ * B-1  -->  <br>
+ * B-2 <br>
+ * B-3  <br>
+ * 
+ * @author Kim Do Young
  *
  */
 public class SorterMap {

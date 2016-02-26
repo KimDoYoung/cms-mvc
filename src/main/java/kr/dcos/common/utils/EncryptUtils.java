@@ -6,6 +6,11 @@ import java.io.UnsupportedEncodingException;
 import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;
 
+/**
+ * 암호화 관련 유틸리티
+ * @author Kim Do Young
+ *
+ */
 public class EncryptUtils {
 	public static final String DEFAULT_ENCODING = "UTF-8";
 	static BASE64Encoder enc = new BASE64Encoder();

@@ -2,7 +2,8 @@ package kr.dcos.common.utils;
 
 /**
  * SQL문자의 order by절
- * @author Administrator
+ * 
+ * @author Kim Do Young
  *
  */
 public class OrderByClause {
