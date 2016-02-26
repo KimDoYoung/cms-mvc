@@ -4,7 +4,7 @@ package kr.dcos.common.servlet.view;
  * Resolver란 논리적인 path를 물리적인 path로 바꾸어주는 것으로
  * user/insert 와 같이 오면 
  * /user/insert.jsp로 만들어준다.
- * @author Administrator
+ * @author Kim Do Young
  *
  */
 public class JspResolver implements Resolver {

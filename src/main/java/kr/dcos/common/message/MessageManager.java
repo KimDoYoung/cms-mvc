@@ -18,7 +18,7 @@ import org.slf4j.LoggerFactory;
  * CmsMessageManager is for display multi language 
  * with locale and keyword
  * using db
- * @author Administrator
+ * @author Kim Do Young
  *
  */
 public class MessageManager {

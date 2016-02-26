@@ -17,11 +17,12 @@ import org.slf4j.LoggerFactory;
 
 
 /**
- * 1. 환경설정의 값들을 DB에서 읽어서 저장하고 있다가 제공해준다.
- * 2. singleton으로 작성한다
- * 3. wcm_config table 사용
- * 4. wcm_config에 들어 있는 내용들을 가지고 와서 map을 형성하고 값을 리턴해준다.
- * @author Administrator
+ * 1. 환경설정의 값들을 DB에서 읽어서 저장하고 있다가 제공해준다. <br>
+ * 2. singleton으로 작성한다 <br>
+ * 3. wcm_config table 사용 <br>
+ * 4. wcm_config에 들어 있는 내용들을 가지고 와서 map을 형성하고 값을 리턴해준다. <br>
+ * 
+ * @author Kim Do Young
  *
  */
 public class ConfigManager {

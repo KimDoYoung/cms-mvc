@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 /**
  * 내부 클래스 SqlItem
  * 
- * @author Administrator
+ * @author Kim Do Young
  *
  */
 public class SqlItem {

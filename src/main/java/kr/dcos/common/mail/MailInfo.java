@@ -25,7 +25,7 @@ import org.slf4j.LoggerFactory;
  * if(mailInfo.isValid()){
  *     GoogleMailSender.send(mailInfo);
  * }
- * @author Administrator
+ * @author Kim Do Young
  *
  */
 public class MailInfo {

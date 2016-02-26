@@ -13,7 +13,7 @@ import java.util.List;
  *    } <br>
  * </pre>
  *    
- * @author Administrator
+ * @author Kim Do Young
  *
  */
 public class JspErrorManager {

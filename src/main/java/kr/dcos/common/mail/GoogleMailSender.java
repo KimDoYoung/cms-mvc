@@ -31,7 +31,7 @@ import com.sun.mail.smtp.SMTPTransport;
 /**
  * 구글계정을 이용하여 메일을 보낸다
  * 
- * @author Administrator
+ * @author Kim Do Young
  *
  */
 public class GoogleMailSender {

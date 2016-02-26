@@ -3,7 +3,7 @@ package kr.dcos.common.utils;
 
 /**
  * orderby 는 한개만
- * @author Administrator
+ * @author Kim Do Young
  *
  */
 public class PagedBase {

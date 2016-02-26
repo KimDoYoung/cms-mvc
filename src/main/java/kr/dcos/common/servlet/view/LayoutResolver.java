@@ -6,7 +6,7 @@ package kr.dcos.common.servlet.view;
  * 
  * layoutName = /layouts/standard , 
  * viewName = /1.jsp 
- * @author Administrator
+ * @author Kim Do Young
  *
  */
 public class LayoutResolver extends JspResolver {

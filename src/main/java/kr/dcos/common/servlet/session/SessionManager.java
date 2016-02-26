@@ -9,7 +9,7 @@ import kr.dcos.common.servlet.ControllerMethodName;
  * 
  * 인증과 권한을 관리하는 클래스
  * for authentication and authorization 
- * @author Administrator
+ * @author Kim Do Young
  *
  */
 public class SessionManager {

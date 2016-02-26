@@ -12,7 +12,7 @@ import kr.dcos.common.sql.utils.IndexedMap;
 /**
  * Column들을 가지고 있다.
  * sql result 로 리턴되는 결과에 대한 각 column들의 정의를 가지고 있다.
- * @author Administrator
+ * @author Kim Do Young
  *
  */
 public class ColumnDefines extends IndexedMap<String,Column> {

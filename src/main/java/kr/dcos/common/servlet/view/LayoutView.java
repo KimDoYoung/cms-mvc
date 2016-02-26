@@ -5,7 +5,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * layout
- * @author Administrator
+ * @author Kim Do Young
  *
  */
 public class LayoutView extends JspView {
