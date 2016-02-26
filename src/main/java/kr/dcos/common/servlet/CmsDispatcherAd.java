@@ -162,7 +162,9 @@ public class CmsDispatcherAd extends HttpServlet {
         } catch (IOException e) {
         	logger.error(e.getMessage());
 		} finally {
-            printWriter.close();
+			if (printWriter != null){
+				printWriter.close();
+			}
         }
  
 		

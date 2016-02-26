@@ -2,13 +2,14 @@ package kr.dcos.common.mail;
 
 import java.io.UnsupportedEncodingException;
 
+import javax.mail.MessagingException;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.sun.xml.internal.messaging.saaj.packaging.mime.MessagingException;
 
 public class GoogleMailSenderTest {
 	
@@ -45,7 +46,7 @@ public class GoogleMailSenderTest {
 		mailInfo.addAttachFile("C:/Users/Administrator/Documents/20130506_견적서.pdf");
 		
 		if(mailInfo.isValid()){
-			GoogleMailSender.Send(mailInfo);
+			GoogleMailSender.send(mailInfo);
 		}else {
 			for (String error : mailInfo.errorMessages()) {
 				logger.debug(error);

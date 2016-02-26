@@ -46,7 +46,7 @@ public class GoogleMailSender {
 	 * @throws AddressException 
 	 * @throws UnsupportedEncodingException 
 	 */
-	public static void Send(MailInfo mailInfo) throws AddressException, javax.mail.MessagingException, UnsupportedEncodingException{
+	public static void send(MailInfo mailInfo) throws AddressException, javax.mail.MessagingException, UnsupportedEncodingException{
 		Security.addProvider(new com.sun.net.ssl.internal.ssl.Provider());
 		final String SSL_FACTORY = "javax.net.ssl.SSLSocketFactory";
 
@@ -136,9 +136,9 @@ public class GoogleMailSender {
 	}
 
 	/**
-	 * to 문자열 배열을 잘라서 InternetAddress 배열로 만들어서 리턴한다.
-	 * to[0] : 홍길동,hong@naver.com,utf-8|홍길동,hong@gmail.com 
-	 * to[1] : 김갑순 ,gabsun@naver.com
+	 * to 문자열 배열을 잘라서 InternetAddress 배열로 만들어서 리턴한다.<br>
+	 * to[0] : 홍길동,hong@naver.com,utf-8|홍길동,hong@gmail.com <br> 
+	 * to[1] : 김갑순 ,gabsun@naver.com<br>
 	 * 
 	 * @param to
 	 * @return

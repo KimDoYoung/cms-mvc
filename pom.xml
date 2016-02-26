@@ -3,10 +3,12 @@
   <groupId>kr.co.kalpa.cms</groupId>
   <artifactId>cms-mvc</artifactId>
   <version>1.0.0</version>
-  <name>CmsMvcLib</name>
+  <name>CmsMvc</name>
   <packaging>jar</packaging>
 
 	<properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>	
 		<org.slf4j-version>1.5.10</org.slf4j-version>
 	</properties>
 	
@@ -43,36 +45,7 @@
 		<artifactId>mail</artifactId>
 		<version>1.4.7</version>
 	</dependency>
-            	
-<!-- 	<dependency> -->
-<!-- 		<groupId>org.codemonkey.simplejavamail</groupId> -->
-<!-- 		<artifactId>simple-java-mail</artifactId> -->
-<!-- 		<version>2.1</version> -->
-<!-- 	</dependency> -->
 
-<!-- <dependency> -->
-<!-- 	<groupId>javax.mail</groupId> -->
-<!-- 	<artifactId>mail</artifactId> -->
-<!-- 	<version>1.5.0-b01</version> -->
-<!-- </dependency> -->
-            
-<!-- 	            	            <dependency> -->
-<!-- 	<groupId>javax.mail</groupId> -->
-<!-- 	<artifactId>mailapi</artifactId> -->
-<!-- 	<version>1.4.3</version> -->
-<!-- </dependency> -->
-
-<!--             <dependency> -->
-<!-- 	<groupId>javax.mail</groupId> -->
-<!-- 	<artifactId>javax.mail-api</artifactId> -->
-<!-- 	<version>1.5.0</version> -->
-<!-- </dependency> -->
-<!-- 	<dependency> -->
-<!-- 		<groupId>jdom</groupId> -->
-<!-- 		<artifactId>jdom</artifactId> -->
-<!-- 		<version>1.0</version> -->
-<!-- 	</dependency>  
-           -->
 	<dependency>
 		<groupId>org.jdom</groupId>
 		<artifactId>jdom2</artifactId>
@@ -97,23 +70,6 @@
 		<version>1.2.2</version>
 	</dependency>
 	
-<!-- 	<dependency> -->
-<!-- 		<groupId>commons-collections</groupId> -->
-<!-- 		<artifactId>commons-collections</artifactId> -->
-<!-- 		<version>20040616</version> -->
-<!-- 	</dependency> -->
-<!-- 	<dependency> -->
-<!-- 		<groupId>commons-beanutils</groupId> -->
-<!-- 		<artifactId>commons-beanutils</artifactId> -->
-<!-- 		<version>20030211.134440</version> -->
-<!-- 	</dependency> -->
-<!-- 	<dependency> -->
-<!-- 		<groupId>commons-lang</groupId> -->
-<!-- 		<artifactId>commons-lang</artifactId> -->
-<!-- 		<version>20030203.000129</version> -->
-<!-- 	</dependency> -->
-            
-            
 	<!-- 		file upload -->
 	<dependency>
 		<groupId>commons-fileupload</groupId>
@@ -220,7 +176,41 @@
 				<encoding>UTF-8</encoding>
 			</configuration>
 		</plugin>
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>findbugs-maven-plugin</artifactId>
+            <version>3.0.1</version>
+        </plugin>
 	</plugins>
   </build>
 
+<reporting>
+    <plugins>
+<!--     	findbugs -->
+       <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>findbugs-maven-plugin</artifactId>
+            <version>3.0.1</version>
+        </plugin>
+<!--         PMD -->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-pmd-plugin</artifactId>
+            <version>3.2</version>
+            <configuration>
+                <linkXref>true</linkXref>
+                <rulesets>
+                    <ruleset>file:///${project.basedir}/my-pmd-ruleset.xml</ruleset>
+                </rulesets>
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>cobertura-maven-plugin</artifactId>
+            <version>2.6</version>
+        </plugin>        
+    </plugins>
+</reporting>
+
+  <description>MVC 모델2 프레임워크</description>
 </project>
