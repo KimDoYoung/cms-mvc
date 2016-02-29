@@ -1,6 +1,6 @@
 package kr.dcos.common.message;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -11,12 +11,12 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.ResourceBundle;
 
-import kr.dcos.common.sql.utils.StopWatch;
-import kr.dcos.common.utils.PrintMap;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+
+import kr.dcos.common.utils.PrintMap;
+import kr.dcos.common.utils.StopWatch;
 
 
 public class MessageManagerTest {

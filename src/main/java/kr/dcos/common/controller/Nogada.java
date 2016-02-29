@@ -1,5 +1,8 @@
-package kr.dcos.common.servlet;
+package kr.dcos.common.controller;
 
+import kr.dcos.common.servlet.ControllerMethod;
+import kr.dcos.common.servlet.ForwardInfo;
+import kr.dcos.common.servlet.RequestInfo;
 import kr.dcos.common.utils.StrUtils;
 
 import org.slf4j.Logger;

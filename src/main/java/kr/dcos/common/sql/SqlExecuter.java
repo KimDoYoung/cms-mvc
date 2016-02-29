@@ -20,11 +20,11 @@ import kr.dcos.common.sql.exception.SqlExecutorException;
 import kr.dcos.common.sql.exception.SqlPickerException;
 import kr.dcos.common.sql.sqlpicker.SqlItem;
 import kr.dcos.common.sql.sqlpicker.SqlPicker;
-import kr.dcos.common.sql.utils.StopWatch;
 import kr.dcos.common.sql.utils.ValueConverter;
 import kr.dcos.common.sql.utils.ValueConverterFactory;
 import kr.dcos.common.utils.ClassUtil;
 import kr.dcos.common.utils.ConvertUtil;
+import kr.dcos.common.utils.StopWatch;
 
 /**
  * sql을 수행한다. <br>
@@ -65,7 +65,9 @@ public class SqlExecuter {
 	 * @throws SqlPickerException 
 	 */
 	public void loadFromResourceFolder(File folder) throws SqlPickerException  {
-
+		
+		if(folder == null) return ;
+		
 		if(folder.isDirectory()){
 			for (final File fileEntry : folder.listFiles()) {
 		        if (fileEntry.isDirectory()) {

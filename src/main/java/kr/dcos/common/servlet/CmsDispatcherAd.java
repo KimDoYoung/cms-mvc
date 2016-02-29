@@ -309,7 +309,7 @@ public class CmsDispatcherAd extends HttpServlet {
 	}
 	
 	/**
-	 * maxpaceCms/nogada.go.cms에서 'nogada.go'를 뽑아낸다
+	 * webAppName/nogada.go.cms에서 'nogada.go'를 뽑아낸다
 	 * @param requestURI
 	 * @return class.method 문자열
 	 */
