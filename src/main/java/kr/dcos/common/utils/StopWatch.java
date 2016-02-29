@@ -119,7 +119,7 @@ public class StopWatch {
 	        long millis = getTime(); 
 	        int hour = (int)((millis / (1000*60*60))%24);
 	        int min = (int)((millis / (1000*60))%60);
-	        return String.format("%d ms (%02d:%02d:%02d.%03d)",
+	        return String.format("%dms (%02d:%02d:%02d.%03d)",
 	        		millis,
 	        		hour,
 	        		min,

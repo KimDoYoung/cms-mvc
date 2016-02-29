@@ -22,5 +22,12 @@ public class StrUtilsTest {
 		gMailId = StrUtils.removePostfix(gMailId, "@gmail.com");
 		assertEquals(gMailId,"kdy987");
 	}
+	public void testaddPostfix() {
+		String s = "abc";
+		assertEquals(StrUtils.addPostfix(s, "/"),"abc/");
+		assertEquals(StrUtils.addPostfix(null, "/"), "/");
+		assertEquals(StrUtils.addPostfix(null, null), null);
+		assertEquals(StrUtils.addPostfix(null, ""), "");
+	}
 
 }

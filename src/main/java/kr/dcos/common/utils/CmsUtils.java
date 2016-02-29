@@ -133,7 +133,7 @@ public class CmsUtils {
 			} 
 		}else if(type.equals(java.util.Date.class)){
 			try {
-				return StrUtils.StringToDate(output);
+				return StrUtils.stringToDate(output);
 			} catch (Exception e) {
 				return null;
 			} 			

@@ -175,8 +175,8 @@ public class SqlExecuter {
 			logger.error(e.getMessage());
 			throw new SqlExecutorException(e.getMessage());
 		}finally{
-			try {rs.close();} catch (SQLException e) {}
-			try {stmt.close();} catch (SQLException e) {}
+			try {if(rs!=null)rs.close();} catch (SQLException e) {}
+			try {if(stmt != null) stmt.close();} catch (SQLException e) {}
 			try { connection.close(); } catch(Exception e) { }
 		}
 		stopWatch.stop();
