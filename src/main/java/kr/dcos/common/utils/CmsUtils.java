@@ -175,16 +175,6 @@ public class CmsUtils {
 	        
 	        IOUtils.copy(in, writer);
 	        
-	        return writer.toString();
-	        
-//	        StringBuilder sb = new StringBuilder();
-//
-//	        
-//	        String data;
-//	        while ((data = in.readLine()) != null){ 
-//	            sb.append(data);
-//	        }
-//	        in.close();	
-//	        return sb.toString();
+	        return writer.toString();        
 	}	
 }
